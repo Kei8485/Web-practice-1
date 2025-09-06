@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="body__header">
+      <img
+        class="logo"
+        src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo.svg"
+        alt="logo"
+      />
+      <div class="body__darkmode-container">
+        <img
+          class="dark-mode"
+          src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/icon-moon.svg"
+          alt="darkMode"
+        />
+      </div>
+    </header>
+
+    <div class="body__section">
+      <h1 class="main__heading">Extension List</h1>
+      <div class="button-section">
+        <button class="btn all-card-btn btn--active">All</button>
+        <button class="btn active-click-btn">Active</button>
+        <button class="btn inactive-btn">Inactive</button>
+      </div>
+    </div>
+
+    <main class="grid__container">
+      <div class="card">
+        <div class="card__container card__image">
+          <img
+            class="extension-img"
+            src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo-speed-boost.svg"
+            alt=""
+          />
+        </div>
+        <div class="card__container">
+          <h3 class="card__heading">SpeedBoost</h3>
+          <p class="card__para">
+            Optimizes browser resources usage to accelerate page loading.
+          </p>
+        </div>
+        <div class="card__container card__remove-container">
+          <button class="btn__remove">Remove</button>
+        </div>
+        <div class="card__container card__container--end">
+          <div class="switch-container">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__container card__image">
+          <img
+            src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo-style-spy.svg"
+            alt=""
+          />
+        </div>
+        <div class="card__container">
+          <h3 class="card__heading">StyleSpy</h3>
+          <p class="card__para">
+            Instantly analyze and copy CSS from any webpage element.
+          </p>
+        </div>
+        <div class="card__container card__remove-container">
+          <button class="btn__remove">Remove</button>
+        </div>
+        <div class="card__container card__container--end">
+          <div class="switch-container">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__container card__image">
+          <img
+            src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo-json-wizard.svg"
+            alt=""
+          />
+        </div>
+        <div class="card__container">
+          <h3 class="card__heading">JSONWizard</h3>
+          <p class="card__para">
+            Formats, validates and prettifies JSON responses in browser.
+          </p>
+        </div>
+        <div class="card__container card__remove-container">
+          <button class="btn__remove">Remove</button>
+        </div>
+        <div class="card__container card__container--end">
+          <div class="switch-container">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__container card__image">
+          <img
+            src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo-tab-master-pro.svg"
+            alt=""
+          />
+        </div>
+        <div class="card__container">
+          <h3 class="card__heading">TabMaster Pro</h3>
+          <p class="card__para">
+            Orginazes browser tabs into group and sessions.
+          </p>
+        </div>
+        <div class="card__container card__remove-container">
+          <button class="btn__remove">Remove</button>
+        </div>
+        <div class="card__container card__container--end">
+          <div class="switch-container">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__container card__image">
+          <img
+            src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo-viewport-buddy.svg"
+            alt=""
+          />
+        </div>
+        <div class="card__container">
+          <h3 class="card__heading">Viewport Buddy</h3>
+          <p class="card__para">
+            Simulates various screen resolution directly within the browser.
+          </p>
+        </div>
+        <div class="card__container card__remove-container">
+          <button class="btn__remove">Remove</button>
+        </div>
+        <div class="card__container card__container--end">
+          <div class="switch-container">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__container card__image">
+          <img
+            src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo-markup-notes.svg"
+            alt=""
+          />
+        </div>
+        <div class="card__container">
+          <h3 class="card__heading">markup notes</h3>
+          <p class="card__para">
+            Enables annotation and notes directly onto webpages for
+            collaborative debugging.
+          </p>
+        </div>
+        <div class="card__container card__remove-container">
+          <button class="btn__remove">Remove</button>
+        </div>
+        <div class="card__container card__container--end">
+          <div class="switch-container">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__container card__image">
+          <img
+            src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo-grid-guides.svg"
+            alt=""
+          />
+        </div>
+        <div class="card__container">
+          <h3 class="card__heading">GridGuides</h3>
+          <p class="card__para">
+            Overlay customizatble grids and alignment guides on any webpages.;
+          </p>
+        </div>
+        <div class="card__container card__remove-container">
+          <button class="btn__remove">Remove</button>
+        </div>
+        <div class="card__container card__container--end">
+          <div class="switch-container">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__container card__image">
+          <img
+            src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo-palette-picker.svg"
+            alt=""
+          />
+        </div>
+        <div class="card__container">
+          <h3 class="card__heading">Palette Picker</h3>
+          <p class="card__para">
+            Instantly extracts color palettes from any webpage.
+          </p>
+        </div>
+        <div class="card__container card__remove-container">
+          <button class="btn__remove">Remove</button>
+        </div>
+        <div class="card__container card__container--end">
+          <div class="switch-container">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__container card__image">
+          <img
+            src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo-link-checker.svg"
+            alt=""
+          />
+        </div>
+        <div class="card__container">
+          <h3 class="card__heading">LinkChecker</h3>
+          <p class="card__para">
+            Scans and highlights broken links on any pages.
+          </p>
+        </div>
+        <div class="card__container card__remove-container">
+          <button class="btn__remove">Remove</button>
+        </div>
+        <div class="card__container card__container--end">
+          <div class="switch-container">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__container card__image">
+          <img
+            src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo-dom-snapshot.svg"
+            alt=""
+          />
+        </div>
+        <div class="card__container">
+          <h3 class="card__heading">DOM Snapshot</h3>
+          <p class="card__para">Capture and export DOM structures quickly.</p>
+        </div>
+        <div class="card__container card__remove-container">
+          <button class="btn__remove">Remove</button>
+        </div>
+        <div class="card__container card__container--end">
+          <div class="switch-container">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__container card__image">
+          <img
+            src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo-console-plus.svg"
+            alt=""
+          />
+        </div>
+        <div class="card__container">
+          <h3 class="card__heading">ConsolePlus</h3>
+          <p class="card__para">
+            Enhanced developer console with advanced filtering and logging.
+          </p>
+        </div>
+        <div class="card__container card__remove-container">
+          <button class="btn__remove">Remove</button>
+        </div>
+        <div class="card__container card__container--end">
+          <div class="switch-container">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__container card__image">
+          <img
+            src="browser-extensions-manager-ui-main/browser-extensions-manager-ui-main/assets/images/logo-devlens.svg"
+            alt=""
+          />
+        </div>
+        <div class="card__container">
+          <h3 class="card__heading">DevLens</h3>
+          <p class="card__para">
+            Quickly inspect page layouts and visualize element boundaries.
+          </p>
+        </div>
+        <div class="card__container card__remove-container">
+          <button class="btn__remove">Remove</button>
+        </div>
+        <div class="card__container card__container--end">
+          <div class="switch-container">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
